@@ -172,6 +172,7 @@
 
     form.addEventListener('submit', async e => {
       e.preventDefault();
+      e.stopImmediatePropagation();
       const submitBtn = form.querySelector('[type="submit"]');
       const errorMsg  = document.getElementById('form-error');
       const successMsg = document.getElementById('form-success');
