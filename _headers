@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self' https://web3forms.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com data:; frame-src https://maps.google.com; connect-src 'self' https://api.web3forms.com; object-src 'none'; base-uri 'self'; form-action https://api.web3forms.com; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'none'; script-src 'self' https://web3forms.com https://js.hcaptcha.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://newassets.hcaptcha.com; font-src https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com https://newassets.hcaptcha.com data:; frame-src https://maps.google.com https://www.google.com https://newassets.hcaptcha.com; connect-src 'self' https://api.web3forms.com https://hcaptcha.com https://api.hcaptcha.com https://maps.googleapis.com; object-src 'none'; base-uri 'self'; form-action https://api.web3forms.com; frame-ancestors 'none'
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
